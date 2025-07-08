@@ -64,7 +64,9 @@ public class Code_Ras {
 				String strUrl = driver.getCurrentUrl();
 				System.out.println("Recipe URL :"+ strUrl);
 				driver.navigate().back();
-				
+
+				//Testing purpose added code
+				driver.quit();
 			
 			}
 		}
